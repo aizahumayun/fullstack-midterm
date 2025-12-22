@@ -23,3 +23,10 @@ const startServer = async () => {
     }
 }
 startServer();
+
+// optional test route
+app.get("/", (req, res) => {
+  res.send("Backend is running on Vercel");
+});
+
+export default app
