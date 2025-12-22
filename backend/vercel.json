@@ -1,7 +1,7 @@
 {
   "builds": [
     {
-      "src": "api/app.ts",
+      "src": "./src/app.ts",
       "use": "@vercel/node"
     },
     {
@@ -11,7 +11,7 @@
     }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/app.ts" },
+    { "src": "/api/(.*)", "dest": "/src/app.ts" },
     { "src": "/(.*)", "dest": "/client/dist/$1" }
   ]
 }
