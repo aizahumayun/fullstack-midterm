@@ -1,4 +1,3 @@
-import React from "react";
 import type { QuoteType } from "../types/types";
 import { useForm } from "react-hook-form";
 interface AddQuoteFormProps {

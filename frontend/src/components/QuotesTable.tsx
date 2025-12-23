@@ -1,4 +1,3 @@
-import React from 'react'
 import type { QuoteType } from '../types/types'
 interface QuotesTableProps {
     quotes: QuoteType[]

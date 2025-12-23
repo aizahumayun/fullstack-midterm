@@ -1,4 +1,3 @@
-import React from "react";
 import NavBar from "../components/layout/NavBar";
 import Banner from "../components/layout/Banner";
 import QuoteComponent from "../components/QuoteComponent";
